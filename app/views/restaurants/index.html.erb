@@ -1,0 +1,7 @@
+<h1>All Restaurants</h1>
+<p>Best places in Berlin</p>
+<ul>
+<% @restaurants.each do | restaurant | %>
+<li> <%= restaurant.name %> </li>
+<% end %>
+</ul>
